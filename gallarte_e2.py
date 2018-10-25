@@ -1,5 +1,9 @@
-message = input ("Tropical Depression ")
-x=0
-if x <= 61 :
-print (x,"is Tropical Depression")
+x= 1
+total = 0
+while x < 10:
+   if x & 1 : 
+        print(x, end= " ")
+        total += x
+   x += 1
 
+   print ("sum+=", total)
